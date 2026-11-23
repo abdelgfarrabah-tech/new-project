@@ -1,9 +1,9 @@
 const firebaseConfig = {
-  databaseURL: "https://firebaseio.com",
+  databaseURL: "https://family-chat-bfa13-default-rtdb.firebaseio.com",
 
 };
 firebase.initializeApp(firebaseConfig);
-const db = firebase.databse();
+const db = firebase.database();
 
 let currentUser = "";
 const FAMILY_SECRET_CODE = "1234"; // رمز العائلة الموحد
