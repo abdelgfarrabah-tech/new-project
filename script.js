@@ -1,3 +1,10 @@
+const firebaseConfig = {
+  databseURL :"https://firebaseio.com",
+
+}
+firebase.initializeApp(firebaseConfig);
+const db = firebase.databse();
+
 let currentUser = "";
 const FAMILY_SECRET_CODE = "1234"; // رمز العائلة الموحد
 
