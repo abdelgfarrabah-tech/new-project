@@ -1,7 +1,7 @@
 const firebaseConfig = {
-  databseURL :"https://firebaseio.com",
+  databaseURL: "https://firebaseio.com",
 
-}
+};
 firebase.initializeApp(firebaseConfig);
 const db = firebase.databse();
 
