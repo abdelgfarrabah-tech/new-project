@@ -6,7 +6,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
 
 let currentUser = "";
-const FAMILY_SECRET_CODE = "1234"; // رمز العائلة الموحد
+const FAMILY_SECRET_CODE = "2030"; // رمز العائلة الموحد
 
 function login() {
   const name = document.getElementById("username-input").value.trim();
@@ -19,7 +19,7 @@ function login() {
   }
 
   if (code !== FAMILY_SECRET_CODE) {
-    errorEl.textContent = "رمز العائلة غير صحيح (جرب 1234).";
+    errorEl.textContent = "رمز العائلة غير صحيح (جرب 2030).";
     return;
   }
 
