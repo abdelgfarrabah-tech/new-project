@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.new_project_navy_xi.twa",
+        "sha256_cert_fingerprints": ["EA:6C:D4:20:63:5E:A2:0F:F8:A2:EC:75:7F:E9:0E:D1:97:E6:18:A7:10:8A:7D:7F:7F:45:B5:DA:F5:C9:0B:3F"]
+      }
+    }]
